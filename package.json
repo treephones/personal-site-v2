@@ -1,7 +1,7 @@
 {
   "name": "personal-site-v2",
   "version": "0.1.0",
-  "homepage": "http://treephones.github.io/personal-site-v2",
+  "homepage": "http://www.moez.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
