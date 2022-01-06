@@ -9,7 +9,7 @@ export const options = {
       color: {
       },
     },
-    fpsLimit: 50,
+    fpsLimit: 30,
     interactivity: {
       events: {
         onClick: {
@@ -42,9 +42,6 @@ export const options = {
       color: {
         value: "#ffffff",
       },
-      line_linked: {
-        enable: false
-      },
       links: {
         color: "#ffffff",
         distance: 150,
@@ -68,7 +65,7 @@ export const options = {
           enable: true,
           value_area: 900,
         },
-        value: 80,
+        value: 40,
       },
       opacity: {
         value: 0.1,
