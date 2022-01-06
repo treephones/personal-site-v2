@@ -2,37 +2,79 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fader {
+  -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 7s; /* Firefox < 16 */
+  -ms-animation: fadein 7s; /* Internet Explorer */
+  -o-animation: fadein 7s; /* Opera < 12.1 */
+  animation: fadein 7s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
-.App-header {
-  background-color: #282c34;
+.section {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  padding-bottom: 3vh;
+}
+
+h1 {
+  font-size: calc(100px + 2vmin);
+  margin-bottom: 15px;
+}
+
+#App-header {
+  background-color: #282c34;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#about {
+  background-color: #30343d;
+  color: white;
+  justify-content: flex-start;
+  padding-inline: 10vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#projects {
+  background-color: #3d424e;
+  color: white;
+  justify-content: flex-start;
+  padding-inline: 10vw;
+}
+
+.projdesc {
+  text-align: left;
+}
+
+#projcards {
+  padding-inline: 15vw;
+  padding-top: 2vh;
+  padding-bottom: 2vw;
+}
+
+.icon {
+  color: white;
+  font-size: 40px;
+  padding-inline: 10px;
+}
+
+.tl {
+  color: rgb(142, 153, 153);
+  text-decoration: none;
+}
+
+.borda {
+  background-color: #494f5e;
+  margin-top: 2vh;
+  border-radius: 20px;
+  padding-inline: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }

@@ -1,0 +1,62 @@
+[
+    {
+        "name":"Stemby",
+        "description":"A versatile discord bot written in Python, which was designed to help students with STEM related problems and questions. This was initially a small project I started over summer, but soon turned into my largest project, currently being used by thousands of students. The website was built shortly after using React and Bootstrap.",
+        "tech":"Python, React, Bootstrap, MongoDB, AWS",
+        "links": [
+            {
+                "text":"Stemby",
+                "link":"https://stemby.moez.io" 
+            },
+            {
+                "text":"Bot Github",
+                "link":"https://github.com/treephones/STEMbot"
+            },
+            {
+                "text":"Website Github",
+                "link":"https://github.com/treephones/stemby-site" 
+            }
+        ]
+    },
+    {
+        "name":"SolarSim",
+        "description":"A 3D simulation of the solar system in the browser using Three.js and WebGL. This project was super interesting because it was my first time making a 3D app in the browser and it turned out pretty nice. I ended up implementing some orbital mechanics via writing a programmatical interpretation of Keplers Law in Javascript which handled the customizability and physics of the customizations. Ended up being incorporated into the elementary science curriculum by teachers in the PDSB and is now educating students on the solar system. Pretty cool.",
+        "tech":"Javascript, HTML5/CSS",
+        "links": [
+            {
+                "text":"SolarSim",
+                "link":"https://solarsim.moez.io"
+            },
+            {
+                "text":"Project Github",
+                "link":"https://github.com/treephones/SolarSim" 
+            }
+        ]
+    },
+    {
+        "name":"Synchro",
+        "description":"A web socket based chat app which allows custom room and profile creation. My future plans for this is to eventually add functionality so that users can watch Youtube videos together in sync.",
+        "tech":"Express, Node.js, React, Bootstrap",
+        "links": [
+            {
+                "text":"Synchro",
+                "link":"https://synchro.moez.io"
+            },
+            {
+                "text":"Project Github",
+                "link":"https://github.com/treephones/Synchro" 
+            }
+        ]
+    },
+    {
+        "name":"FastCards",
+        "description":"An API which generates flashcards. I made this because I needed something which would provide flashcards for the quiz function of Stemby, where it is in active use. Works by efficiently scraping cram.com for definitions based upon the requeset and compiling them into a series of flashcards which the API responds with.",
+        "tech":"Express, Node.js",
+        "links": [
+            {
+                "text":"Project Github & Documentation",
+                "link":"https://github.com/treephones/FastCards" 
+            }
+        ]
+    }
+]
